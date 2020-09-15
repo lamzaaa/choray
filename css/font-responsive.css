@@ -1,0 +1,60 @@
+@media (max-width: 700px) {
+    .section-h1 {
+        font-size: 48px;
+        line-height: 1.5;
+    }
+    .section-title {
+        font-size: calc(32px + 6 * ((100vw - 700px) / 680));
+        font-weight: 600;
+        line-height: 1.4;
+        color: #333333 !important;
+        font-family: 'Sarabun', sans-serif;
+    }
+    .section-h3 {
+        font-size: calc(24px + 6 * ((100vw - 700px) / 680));
+        line-height: 1.5;
+        font-weight: 600;
+        font-family: 'Sarabun', sans-serif;
+    }
+    .section-content {
+        font-size: calc(16px + 6 * ((100vw - 700px) / 680));
+        line-height: 1.5;
+        font-family: 'Sarabun', sans-serif;
+    }
+    .section-desc {
+        font-size: calc(13px + 6 * ((100vw - 700px) / 680));
+        color: rgb(255, 255, 255);
+        line-height: 1.571;
+        font-family: 'Sarabun', sans-serif;
+    }
+    .section-link-active {
+        font-size: calc(13px + 6 * ((100vw - 700px) / 680));
+        color: rgb(1, 168, 227);
+        text-transform: uppercase;
+        line-height: 1.538;
+    }
+    .section-button-chitiet {
+        font-size: calc(16px + 6 * ((100vw - 700px) / 680));
+        line-height: 1.5;
+        font-weight: 600;
+        text-align: left;
+        font-family: 'Sarabun', sans-serif;
+    }
+    .section-link {
+        font-size: calc(18px + 6 * ((100vw - 700px) / 680));
+        line-height: 1.778;
+        font-weight: 600;
+        text-align: left;
+        font-family: 'Sarabun', sans-serif;
+    }
+    .section-date {
+        font-size: calc(13px + 6 * ((100vw - 700px) / 680));
+        color: rgb(153, 153, 153);
+        line-height: 1.429;
+    }
+    .section-content-footer {
+        font-size: calc(14px + 6 * ((100vw - 400px) / 680));
+        color: #7fb1d0;
+        line-height: 1.3;
+    }
+}
